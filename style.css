@@ -1,0 +1,117 @@
+.background {
+    background-image: url("bgk-header.png");
+    min-height: 500px;
+  }
+  
+  .logo {
+    background-image: url(logo.png);
+    display: block;
+    height: 50px;
+    width: 45px;
+    float:left;
+  }
+  
+  h3 {
+    color: rgb(22, 160, 153);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+  }
+  
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: x-large;
+    font-weight: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bolder;
+  }
+  
+  nav > a {
+    color: rgb(240, 240, 252);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* The navbar container */
+  .topnav {
+    overflow: hidden;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  #home {
+    color: rgb(81, 226, 219);
+  }
+  !Important 
+  
+  #hero-section {
+    margin: 0 auto;
+    max-width: 50em;
+    display: flex;
+    align-items: center;
+  }
+  
+  #hero-section {
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(240, 240, 252);
+  }
+  
+  #hero-section > p {
+    color: rgb(248, 248, 252);
+  }
+  
+  
+  .logo-big {
+    background-image: url(logo-big.png);
+    display: block;
+    height: 230px;
+    width: 235px;
+    float:left;
+    
+  }
+  
+  button {
+    color: rgb(81, 226, 219);
+  }
+  
+  button {
+    border: 1px solid rgb(81, 226, 219);
+    outline-style: solid;
+    outline-color: rgb(81, 226, 219);
+    outline-width: thin;
+  }
+  
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+  }
+  
+  
+  
+  
+  
+  
+  
