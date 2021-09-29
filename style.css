@@ -184,7 +184,6 @@ button {
   outline-width: thin;
   background: none;
   text-transform: uppercase;
-  /* padding: 0.8rem 1rem 0.8rem 1rem; */
   font-size: 16px;
   font-weight: 400;
   width: 120px;
@@ -194,4 +193,38 @@ button {
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: smaller;
+}
+
+/* =======================================================
+   OUR STORY
+   ======================================================= */
+
+#our_story-section {
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our_story-logo {
+  margin-right: 6.5em;
+}
+.our_story-text h2 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #413d4b;
+  font-weight: 700;
+  font-family: "Playfair Display";
+  margin-bottom: 1em;
+}
+.our_story-text p {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  color: #413d4b;
+  font-weight: 300;
+  font-family: "Roboto";
+  margin-bottom: 1em;
+}
+.our_story-text button {
+  margin-top: 0.8em;
 }
