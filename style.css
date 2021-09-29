@@ -62,7 +62,7 @@
   #home {
     color: rgb(81, 226, 219);
   }
-  !Important 
+  
   
   #hero-section {
     margin: 0 auto;
@@ -109,9 +109,70 @@
     font-size: smaller;
   }
   
+  footer{
+    /* display: flex; */
+    padding: 10%;
+    height: 200px;
+    background-image: url("./images/bgk-footer.png");
+    background-size: cover;
+    background-position: left;
+    background-attachment:local;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  .footer-container {
+    display: grid;
+    height: 300px;
+    align-self: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1;
+    font-size: 1rem;
+  }
   
+  .Foot-Left {
+    grid-column:1;
+    grid-row:1;
+  }
+
+  .Foot-mid {
+    grid-column:2;
+    grid-row:1;
+    margin-left: 35px; 
+    margin-right: 35px; 
+  }
+
+  .Foot-right {
+    grid-column:3;
+    grid-row:1;
+  }
+
+  .Foot-logoarea > p {
+    display: flex;
+    color: teal;
+    font-size: 2rem;
+    font-weight:lighter;
+    font-family: roboto, sans-serif; 
+    margin-top: 0px;
+  }
+
+  .Foot-nav {
+    display: flex;
+    width: 100%;
+  }
   
-  
-  
-  
+  .Foot-nav a:link {
+    color: white;
+    font-size: 0.8rem;
+    font-family: inherit;
+    text-decoration-line: none;
+  }
+
+  .Foot-nav a:visited {
+    color:beige;
+    font-size: 0.8rem;
+    font-family: inherit;
+    text-decoration-line: none;
+  }
   
