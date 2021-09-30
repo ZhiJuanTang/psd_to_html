@@ -1,0 +1,30 @@
+#expertise-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-style : hidden!important;
+   }
+  
+  
+   td {
+    border: 1px solid black; 
+   }
+  
+  
+  #hr {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 5em;
+  }
+  
+  table{
+    table-layout: auto;
+    width:70%;  
+  }
+  
