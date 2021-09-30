@@ -143,6 +143,9 @@ nav li a {
   font-weight: 700;
   font-family: "Playfair Display";
   margin-bottom: 1em;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 0;
 }
 .our_story-text p {
   font-size: 14px;
@@ -154,7 +157,31 @@ nav li a {
   margin-bottom: 1em;
 }
 .our_story-text button {
-  margin-top: 0.8em;
+  margin-top: 0.7em;
+}
+
+/* =======================================================
+   WATCH SECTION
+   ======================================================= */
+#watch-section {
+  background-image: url("./images/bgk-middle.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+}
+#watch-section img {
+  max-width: 100px;
+}
+#watch-section h2 {
+  padding-top: 0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  padding-top: 2em;
 }
 
 /* =======================================================
