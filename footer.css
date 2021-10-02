@@ -2,78 +2,143 @@
    FOOTER CSS - Victor
 =============================== */
 
-footer p {
-  
+footer {
+  /* display: flex; */
+  width                : 100%;
+  min-height           : 450px;
+  max-height           : 550px;
+  padding-top          : 5%;
+  padding-bottom       : 5%;
+  padding-left         : 10%;
+  padding-right        : 10%;
+  align-content        : center;
+  background-image     : url("./images/bgk-footer.png");
+  background-size      : cover;
+  background-position  : left;
+  background-attachment: local;
+  background-clip      : border-box;
+  font-family          : Arial, Helvetica, sans-serif;
+  font-size            : 1rem;
+  color                : white;
 }
 
-footer{
-      /* display: flex; */
-      width: 100%;
-      height: 800px;
-      padding-top: 5%;
-      padding-bottom: 5%;
-      padding-left: 10%;
-      padding-right: 10%;
-      align-content: center;
-      background-image: url("./images/bgk-footer.png");
-      background-size: cover;
-      background-position: left;
-      background-attachment:local;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 1rem;
-      color: white;   
-    }
-  
-    .footer-container {
-      display: grid;
-      height: 400px;
-      align-self: center;
-      grid-template-columns: 1fr 1fr 1fr ;
-      grid-template-rows: 1;
-      font-size: 1rem;
-    }
-    
-    .Foot-Left {
-      grid-column:1;
-      grid-row:1;
-    }
-  
-    .Foot-mid {
-      grid-column:2;
-      grid-row:1;
-      margin-left: 35px; 
-      margin-right: 35px; 
-    }
-  
-    .Foot-right {
-      grid-column:3;
-      grid-row:1;
-    }
-  
-    .Foot-logoarea > p {
-      display: flex;
-      color: teal;
-      font-size: 4rem;
-      font-weight:lighter;
-      font-family: roboto, sans-serif; 
-      margin-top: 0px;
-    }
-  
-    .Foot-nav {
-      display: flex;
-      width: 100%;
-    }
-    
-    .Foot-nav a:link {
-      color: white;
-      font-size: 1rem;
-      font-family: inherit;
-      text-decoration-line: none;
-    }
-  
-    .Foot-nav a:visited {
-      color:beige;
-      font-size: 1rem;
-      font-family: inherit;
-      text-decoration-line: none;
-    }
+.Foot-container {
+  display              : grid;
+  grid-area: span;
+  height               : 100%;
+  align-self           : center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows   : 1fr;
+  font-size            : 1rem;
+  line-height: 1.4rem;
+}
+
+.Foot-Left {
+  grid-column: 1;
+  grid-row   : 1;
+}
+
+.Foot-mid {
+  grid-column : 2;
+  grid-row    : 1;
+  margin-left : 35px;
+  margin-right: 35px;
+}
+
+.Foot-right {
+  grid-column: 3;
+  grid-row   : 1;
+}
+
+.Foot-logoarea>p {
+  display        : flex;
+  justify-content: flex-start;
+  margin-top     : 1px;
+  color          : teal;
+  font-family    : roboto, sans-serif;font-size      : 2.1rem;
+  font-weight    : lighter;
+}
+
+.Foot-nav {
+  display      : flex;
+  align-content: flex-start;
+  width        : 100%;
+
+}
+
+.Foot-nav a:link {
+  color               : white;
+  font-size           : 1rem;
+  font-family         : inherit;
+  text-decoration-line: none;
+}
+
+.Foot-nav a:visited {
+  color               : beige;
+  font-size           : 1rem;
+  font-family         : inherit;
+  text-decoration-line: none;
+}
+
+footer #subscribe-row {
+  display        : flex;
+  justify-content: flex-end;
+  align-items    : center;  
+}
+
+footer #subscribe {
+  border-width    : 1px;
+  border-style    : groove;
+  border-color    : antiquewhite;
+  background-color: transparent;
+  color           : antiquewhite;
+  height          : 3rem;
+  width           : 50%;
+  padding         : 5px;
+}
+
+footer #submit-button {
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  border-width    : 1px;
+  border-style    :none;
+  border-color    : antiquewhite;
+  background-color: rgba(255, 255, 255, 0.3);
+  color           : #ffffff;
+  height          : 3rem;
+  width           : 5rem;
+  padding         : 3px;
+  margin-left: 5px;
+}
+
+footer #social-buttons {
+  display         : flex;
+  justify-content :center;
+  align-content : space-between;
+  border-style    : hidden;
+  background-color: transparent;
+  color           : antiquewhite;
+  height          : 2rem;
+  margin-top      : 10px;
+  padding: 3px;
+
+}
+
+.Foot-lastrow {
+  display              : grid;
+  height               : 100px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows   : 1fr;
+  font-size            : 1rem;
+  align-items          : center;
+  margin-bottom        : 10%;
+}
+
+footer #copyright {
+  display        : flex;
+  font-size      : 0.8rem;
+  padding-right  : 3rem;
+  justify-content: center;
+
+}
