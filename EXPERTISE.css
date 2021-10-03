@@ -1,30 +1,77 @@
 #expertise-section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#expertise-section table {
+  border-collapse: collapse;
+  border-style: hidden !important;
+  margin-bottom: 4em;
+  table-layout: auto; 
+}
+
+#expertise-section h2 {
+  width: 460px;
+  height: 34px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #413d4b;
+  font-weight: 700;
+  font-family: "Playfair Display";
+  text-align: center;
+
+}
+
+#expertise-section h3{
+  width: 299px;
+height: 47px;
+font-size: 14px;
+letter-spacing: 1px;
+color: #413d4b;
+font-weight: 900;
+font-family: "Roboto";
+text-align: center;
+}
+
+
+#expertise-section > #head p {
+  width: 460px;
+  height: 27px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #2f2d35;
+  font-weight: 400;
+  font-family: "Playfair Display";
+  text-align: center;
+}
+
+#expertise-section td {
+  border: 1px solid rgb(230, 227, 227);
   
-  table {
-    border-collapse: collapse;
-    border-style : hidden!important;
-   }
-  
-  
-   td {
-    border: 1px solid black; 
-   }
-  
-  
-  #hr {
-    display: flex;
-    justify-content: center;
-    padding-top: 3em;
-    padding-bottom: 5em;
-  }
-  
-  table{
-    table-layout: auto;
-    width:70%;  
-  }
-  
+}
+
+.td1 .td2 .td3 .td4 .td5 .td6 {
+  border-style: hidden !important;
+}
+
+#hr {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.8em;
+  padding-bottom: 3em;
+}
+
+table p {
+width: 299px;
+height: 91px;
+font-size: 14px;
+letter-spacing: 1px;
+line-height: 22px;
+color: #333333;
+font-weight: 300;
+font-family: "Roboto";
+text-align: center;
+}
