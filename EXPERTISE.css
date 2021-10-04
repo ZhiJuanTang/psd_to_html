@@ -10,7 +10,7 @@
   border-collapse: collapse;
   border-style: hidden !important;
   margin-bottom: 4em;
-  table-layout: auto; 
+  table-layout: auto;
 }
 
 #expertise-section h2 {
@@ -22,20 +22,18 @@
   font-weight: 700;
   font-family: "Playfair Display";
   text-align: center;
-
 }
 
-#expertise-section h3{
+#expertise-section h3 {
   width: 299px;
-height: 47px;
-font-size: 14px;
-letter-spacing: 1px;
-color: #413d4b;
-font-weight: 900;
-font-family: "Roboto";
-text-align: center;
+  height: 47px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #413d4b;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: center;
 }
-
 
 #expertise-section > #head p {
   width: 460px;
@@ -50,7 +48,6 @@ text-align: center;
 
 #expertise-section td {
   border: 1px solid rgb(230, 227, 227);
-  
 }
 
 .td1 .td2 .td3 .td4 .td5 .td6 {
@@ -65,13 +62,13 @@ text-align: center;
 }
 
 table p {
-width: 299px;
-height: 91px;
-font-size: 14px;
-letter-spacing: 1px;
-line-height: 22px;
-color: #333333;
-font-weight: 300;
-font-family: "Roboto";
-text-align: center;
+  width: 299px;
+  height: 91px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: #333333;
+  font-weight: 300;
+  font-family: "Roboto";
+  text-align: center;
 }

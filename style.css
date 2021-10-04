@@ -184,93 +184,93 @@ nav li a {
   padding-top: 2em;
 }
 
+h2 {
+  color: white;
+}
 /* =======================================================
   TEAM
    ======================================================= */
-   #team-section {
-    height: 713px;
-    background-image: url(images/bgk-header.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;        
-  }
+#team-section {
+  height: 713px;
+  background-image: url(images/bgk-header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
-  #team-section > #head {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-  }
+#team-section > #head {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
-
-   #team-section h2 {
+#team-section h2 {
   display: flex;
   justify-content: center;
   text-align: center;
- margin-top: 1em;
- width: 460px;
-height: 34px;
-font-size: 22px;
-letter-spacing: 1px;
-color: #ffffff;
-font-weight: 700;
-font-family: "Playfair Display";
+  margin-top: 1em;
+  width: 460px;
+  height: 34px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Playfair Display";
 }
 
 #team-section p {
   font-size: 1em;
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
   color: white;
 }
 
 .grid {
   display: grid;
-   grid-gap: 1rem;
+  grid-gap: 1rem;
   display: flex;
-   justify-content: space-around;
+  justify-content: space-around;
   align-items: center;
-
-  padding-bottom: 3em;  
+  padding-bottom: 3em;
   margin-left: 15em;
-  margin-right:15em;
+  margin-right: 15em;
 }
 
 .grid-item {
   border-radius: 0.1rem;
   overflow: hidden;
-    width: 100%;
+  width: 100%;
   height: 308px;
+  border: 0.5px solid rgb(248, 245, 244);
+  max-width: 300px;
 }
 
 .card-img {
-  width: 100%;
-  height: 15rem; 
+  height: 15rem;
   margin-bottom: 0em;
 }
 
-card {
-  width: 220px;
+.card {
   height: 229px;
-  
 }
 
-.card-content{
-  border: 0.5px solid rgb(248, 245, 244);
-  margin-top: 0em;
-  
+.card-content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
-
 
 .card-text1 {
   width: 220px;
-height: 14px;
-font-size: 14px;
-letter-spacing: 1px;
-color: #ffffff;
-font-weight: 900;
-font-family: "Roboto";
-text-align: center;
+  height: 14px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 900;
+  font-family: "Roboto";
+  text-align: center;
 }
 
 .card-text2 {
@@ -283,12 +283,10 @@ text-align: center;
   text-align: center;
 }
 
-
-
-#team-section #hr {
-  display: flex;
-  justify-content: center;
-  width: 25em;
+#team-section .line {
+  width: 50px;
+  height: 1px;
+  background-color: white;
 }
 
 .team-bottom {
@@ -298,26 +296,29 @@ text-align: center;
   align-items: center;
 }
 
-.team-bottom p{
-width: 455px;
-height: 24px;
-font-size: 14px;
-letter-spacing: 1px;
-color: #f3f3f3;
-font-weight: 300;
-font-family: "Roboto";
-text-align: center;
+.team-bottom p {
+  width: 455px;
+  height: 24px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #f3f3f3;
+  font-weight: 300;
+  font-family: "Roboto";
+  text-align: center;
 }
 
-.team-bottom> .card-btn {width: 460px;
-height: 20px;
-font-size: 16px;
-color: #00e0d0;
-font-weight: 400;
-font-family: "Hammersmith One";
-text-align: center;
-width: 20%;
-height:50px;
-padding: 4.5rem,0.5rem,0.5rem,2.5rem;
-}  
-
+.team-bottom > .card-btn {
+  text-align: center;
+  border: 0px solid rgb(81, 226, 219);
+  outline-style: solid;
+  outline-color: rgb(81, 226, 219);
+  color: rgb(81, 226, 219);
+  font-family: "Hammersmith One", sans-serif;
+  outline-width: thin;
+  background: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  width: 120px;
+  height: 40px;
+}
